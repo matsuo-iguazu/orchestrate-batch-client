@@ -36,7 +36,7 @@ source venv/bin/activate  # macOS/Linux の場合
 `requirements.txt` に基づいて、必要なライブラリ（`requests` と `python\-dotenv\`）をインストールします。
 
 ```bash
-pip install \-r requirements\.txt
+pip install -r requirements.txt
 ```
 
 ---
