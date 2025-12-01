@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 プロジェクトルートにある隠しファイル **`\.env`** を編集し、認証情報と設定値を記述します。
 
-**`\.env`**
+**`.env`**
 
 ```env
 # watsonx Orchestrate の設定情報
