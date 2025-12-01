@@ -14,7 +14,7 @@
 まず、このリポジトリをローカル環境または Codespaces にクローンします。
 
 ```bash
-git clone [あなたのリポジトリのURL]
+git clone https://github.com/matsuo-iguazu/orchestrate-batch-client
 cd orchestrate-batch-client
 ```
 
