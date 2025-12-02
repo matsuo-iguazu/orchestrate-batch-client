@@ -176,7 +176,7 @@ def run_batch_query(input_filepath: str):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python orchestrate_runs_client.py <input_file.txt>")
+        print("Usage: python runs_client.py <input_file.txt>")
         sys.exit(1)
     
     run_batch_query(sys.argv[1])
