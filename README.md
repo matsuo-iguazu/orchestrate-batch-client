@@ -63,7 +63,10 @@ AGENT_IDは、エージェント編集画面の、チャネル > Webサイトに
 ORCHESTRATE_BASE_URL="あなたのサービスインスタンスURL"
 API_KEY="あなたのAPIキー"
 AGENT_ID="あなたのエージェントID"
+ENVIRONMENT_ID="あなたの環境ID" # Runs APIに必要
 ```
+ENVIRONMENT_IDについて：
+Runs APIでは、environment_idを指定しない場合、デフォルトでdraft環境が使用されます。Live環境のエージェントにリクエストを実行するには、明示的にenvironment_idを指定する必要があります。
 
 ---
 
